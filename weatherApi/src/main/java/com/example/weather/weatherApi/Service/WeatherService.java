@@ -17,7 +17,7 @@ public class WeatherService {
                 .url("https://open-weather13.p.rapidapi.com/city/landon")
                 .get()
                 .addHeader("content-type", "application/octet-stream")
-                .addHeader("X-RapidAPI-Key", "e3a0e636e8msh9440651a93caecdp15aec7jsn7a301cc669d8")
+                .addHeader("X-RapidAPI-Key", "*****************************************")
                 .addHeader("X-RapidAPI-Host", "open-weather13.p.rapidapi.com")
                 .build();
 
@@ -34,7 +34,7 @@ public class WeatherService {
                 .url("https://open-weather13.p.rapidapi.com/city/fivedaysforcast/30.438/-89.1028")
                 .get()
                 .addHeader("content-type", "application/octet-stream")
-                .addHeader("X-RapidAPI-Key", "e3a0e636e8msh9440651a93caecdp15aec7jsn7a301cc669d8")
+                .addHeader("X-RapidAPI-Key", "******************************************")
                 .addHeader("X-RapidAPI-Host", "open-weather13.p.rapidapi.com")
                 .build();
 
